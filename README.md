@@ -89,7 +89,7 @@ file.close()
 file = open("testfile.txt", "r") 
 print file.read() 
 print file.readlines()
-print file.readlines(2)
+print file.readline(2)
 ```
 ```python
 file = open("testfile.txt", "r")
