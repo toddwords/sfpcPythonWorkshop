@@ -8,7 +8,11 @@ We will be using **Python 2** for this course, not **Python 3**. So please use t
 
 **Running the Python Interpreter from the Terminal**
 
-**print / variables**
+**Print / Variables**
+```python
+thingToSay = 'Hello World'
+print thingToSay
+```
 
 **Strings - Playing with words**
 - `'hello' + 'friend' + 'hello'*3
@@ -44,7 +48,7 @@ if var in ['is', 'it', 'one', 'of', 'these']:
 ```
 
 **Loops**
-```ptyhon
+```python
 for item in list:
     #code runs for each item in list
 
@@ -66,4 +70,29 @@ print cheer('Todd')
 ```
 
 **Input/Output**
-
+```python
+name = raw_input('What\'s your name?')
+print name
+```
+```python
+file = open("testfile.txt","w") 
+ 
+file.write("Hello World") 
+file.write("This is our new text file") 
+file.write("and this is another line.") 
+file.write("Why? Because we can.") 
+ 
+file.close() 
+```
+```python
+file = open("testfile.txt", "r") 
+print file.read() 
+print file.readlines()
+print file.readlines(2)
+```
+```python
+file = open("testfile.txt", "r")
+for line in file.readlines():
+   if 'this' in line:
+       print line
+```
