@@ -4,6 +4,7 @@ Hey everyone, this is a small workshop to get everyone started in Python. Here's
 ### Installation
 All Macs will come with Python 2 already installed, but we're going to install Anaconda for SFPC. Anaconda provides access to a bunch of tools and libraries to use with python.
 We will be using **Python 2** for this course, not **Python 3**. So please use the **Python 2.7** installer.
+
 [Get Anaconda Here](https://www.anaconda.com/download/)
 
 **Running the Python Interpreter from the Terminal**
